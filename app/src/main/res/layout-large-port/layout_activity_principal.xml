@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/FrgListado"
+        class="matope.simarro.aplicacion20.fragment.Activity_Fragment_Lista"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="40" />
+
+    <fragment
+        android:id="@+id/FrgDetalle"
+        class="matope.simarro.aplicacion20.fragment.Activity_Fragment_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="60" />
+</LinearLayout>
